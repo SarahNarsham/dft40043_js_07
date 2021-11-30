@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <table width="500" cellpadding="5" cellspacing="5">
+        <tr>
+            <th width="20">SUBJEK</th>
+            <th width="20">MARKAH</th>
+            <th width="20">GRED</th>
+        </tr>
+
+        <tr align="center">
+            <td>BM 1</td>
+            <td><input type="number" name="subjek1" min="0" max="100" onchange="grade(this.value, 'bm1');"></td>
+            <td align="center" id="bm1"><br></td>
+        </tr>
+        <tr align="center">
+            <td>BM 2</td>
+            <td><input type="number" name="subjek2" min="0" max="100" onchange="grade(this.value, 'bm2');"></td>
+            <td id="bm2"></td>
+        </tr>
+        <tr align="center">
+            <td>BI</td>
+            <td><input type="number" name="subjek3" min="0" max="100" onchange="grade(this.value, 'bi');"></td>
+            <td id="bi"></td>
+        </tr>
+        <tr align="center">
+            <td>SAINS</td>
+            <td><input type="number" name="subjek4" min="0" max="100" onchange="grade(this.value, 'sains');"></td>
+            <td id="sains"></td>
+        </tr>
+        <tr align="center">
+            <td>MATHS</td>
+            <td><input type="number" name="subjek5" min="0" max="100" onchange="grade(this.value, 'maths');"></td>
+            <td id="maths"></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
